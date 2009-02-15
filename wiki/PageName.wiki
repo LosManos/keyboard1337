@@ -1,0 +1,11 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+Keyboard1337 is a small layout changer for making typing easier.
+
+
+= Details =
+
+A keyboard layout program from Microsoft is needed to use the layout file.
+[http://www.microsoft.com/globaldev/tools/msklc.mspx]
