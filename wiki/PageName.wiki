@@ -4,11 +4,11 @@
 
 Keyboard1337 is a small layout changer for making typing easier in Windows.
 
-
 = Details =
 
 A keyboard layout program from Microsoft is needed to use the layout file.
 [http://www.microsoft.com/globaldev/tools/msklc.mspx]
+[http://www.microsoft.com/DOWNLOADS/details.aspx?FamilyID=8be579aa-780d-4253-9e0a-e17e51db2223&displaylang=en]
 
 An installer is included in the download so the program above is not needed.
 
