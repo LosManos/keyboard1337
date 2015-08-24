@@ -2,6 +2,8 @@
 
 ## Better programming keyboard layout for Swedish hackers
 
+<a href="https://github.com/LosManos/keyboard1337/wiki>Wiki</a>
+
 I got tired of having to press shift every time i wanted to write a parenthesis, bracket, måsvinge, quotation mark, pound or at sign. So I used a US keyboard and swapped the top row so now I don't have to press shift for these often used characters. Instead one presses shift for the numbers.
 
 I takes a second to learn and is so much nicer to use.
