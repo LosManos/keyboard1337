@@ -2,7 +2,7 @@
 
 ## Better programming keyboard layout for Swedish hackers
 
-<a href="https://github.com/LosManos/keyboard1337/wiki>Wiki</a>
+<a href="https://github.com/LosManos/keyboard1337/wiki">Wiki</a>
 
 I got tired of having to press shift every time i wanted to write a parenthesis, bracket, m√•svinge, quotation mark, pound or at sign. So I used a US keyboard and swapped the top row so now I don't have to press shift for these often used characters. Instead one presses shift for the numbers.
 
@@ -16,9 +16,10 @@ The Windows version uses a layout and install program from Microsoft.
 
 The OSX version uses a program called Ukelele for layout. Installment is usual OSX stuff as Ukelele has documented. I have noticed a caveat where the new layout or bundle doesn't get changed at once but I can't remember my findings. Just remember that installment is sightly rocky and not the smooth just-works we are used to.
 
-The Microsoft keyboard layout generating program is here: http://www.microsoft.com/download/en/confirmation.aspx?id=22339. The OSX keyboard layout generating program, Ukelele, is here: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele
+The Microsoft keyboard layout generating program is here: http://www.microsoft.com/download/en/confirmation.aspx?id=22339.  
+The OSX keyboard layout generating program, Ukelele, is here: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele
 
-Since Google code does not allow for zipped download any more the files are moved to Google drive <a href="https://drive.google.com/folderview?id=0B4T0Fuickd6ldC11emRfZnNISlk&usp=sharing">here</a>.
+Due to historical reasons, not yet remedied, the source files are at a Google drive <a href="https://drive.google.com/folderview?id=0B4T0Fuickd6ldC11emRfZnNISlk&usp=sharing">here</a>. The ..bundle.. file is for OSX and the other for Windows.
 
 ----
 
@@ -30,7 +31,7 @@ If you only want to create a control button of the caps lock - use a program fr√
 
 You can also use Authotkey for using capslock as an extra modifier key. (the combined with Visual studio and Resharper this does not always work though)
 
-The language is installed as a English/US keyboard. This means that on Win7 (/Vista?) you look for English/US and under that find 1337.
+The language is installed as a English/US keyboard. This means that on Win7/8/10 (/Vista?) you look for English/US and under that find 1337.
 
 ----
 
