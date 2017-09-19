@@ -20,11 +20,13 @@ If you want to get back to your old Swedish layout just press shift-alt in Windo
 
 ### Windows
 
-The Windows version uses a layout and install program from Microsoft.
+The Windows version uses a layout and install program from Microsoft.  
+<a href="https://drive.google.com/folderview?id=0B4T0Fuickd6ldC11emRfZnNISlk&usp=sharing">here</a>
 
 ### OSX
 
-The OSX version uses a program called Ukelele for layout. Installment is usual OSX stuff as Ukelele has documented. I have noticed a caveat where the new layout or bundle doesn't get changed at once but I can't remember my findings. Just remember that installment is sightly rocky and not the smooth just-works we are used to.
+The OSX version uses a program called Ukelele for layout. Installment is usual OSX stuff as Ukelele has documented. I have noticed a caveat where the new layout or bundle doesn't get changed at once but I can't remember my findings. Just remember that installment is sightly rocky and not the smooth just-works we are used to.  
+<a href="https://drive.google.com/folderview?id=0B4T0Fuickd6ldC11emRfZnNISlk&usp=sharing">here</a>
 
 ### Not content? continue editing yourself
 
