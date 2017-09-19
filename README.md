@@ -16,11 +16,13 @@ It has ÅÄÖ as the swedish layout. They are reached through altgr-{normal posi
 
 If you want to get back to your old Swedish layout just press shift-alt in Windows or corresponding combination in OSX.
 
-### Installation on Windows
+## Installation
+
+### Windows
 
 The Windows version uses a layout and install program from Microsoft.
 
-### Installation on OSX
+### OSX
 
 The OSX version uses a program called Ukelele for layout. Installment is usual OSX stuff as Ukelele has documented. I have noticed a caveat where the new layout or bundle doesn't get changed at once but I can't remember my findings. Just remember that installment is sightly rocky and not the smooth just-works we are used to.
 
