@@ -1,5 +1,17 @@
 # Keyboard1337
 
+There are two solutions here;
+One is mapping the Capslock key to a meta key which allows for keyboard navigation with capslock and not arrow keys.
+The other is a different language layout on the keyboard.
+
+## BecerroInamovible
+
+The BecerroInamovible.ahk is an Autohotkey file that manipulates the Capslock key to become a customisable meta key.
+Just pressing Capslock means Esc.
+Pressing alt-Capslock means the normal Capslock.
+Pressing Capslock-j means left, Capslock-k right and many more.
+One very convenient is Capslock-y which is the same as ctrl-shift-left which normally is the same as mark word at left. The reason for this is the when typing it is often faster rewwriting the whole word than Backspacing to the erroneous letter.
+
 ## Better programming keyboard layout for Swedish hackers
 
 <a href="https://github.com/LosManos/keyboard1337/wiki">Wiki</a>
