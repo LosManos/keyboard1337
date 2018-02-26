@@ -1,8 +1,8 @@
-# Keyboard1337
+﻿# Keyboard1337
 
 There are two solutions here;
-One is mapping the Capslock key to a meta key which allows for keyboard navigation with capslock and not arrow keys.
-The other is a different language layout on the keyboard.
+*BecerroInamovible* is mapping the Capslock key to a meta key which allows for keyboard navigation with capslock and not arrow keys.
+*Keyboard1337* is a different language layout on the keyboard, a layout adapted to programming.
 
 ## BecerroInamovible
 

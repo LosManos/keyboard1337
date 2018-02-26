@@ -66,8 +66,20 @@ CapsLock & i::
 CapsLock & h::Send {Backspace}
 
 ; Home and End.
-CapsLock & m::Send {Home}
-CapsLock & ,::Send {End}
+;CapsLock & m::Send {Home}
+CapsLock & m::
+	If GetKeyState("Shift")
+		SendInput +{Home}
+	Else
+		SendInput {Home}
+	Return
+;CapsLock & ,::Send {End}
+CapsLock & ,::
+	If GetKeyState("Shift")
+		SendInput +{End}
+	Else
+		SendInput {End}
+	Return
 
 ; Shift arrows.
 ; Does not work. Would ; https://gist.github.com/DaleMatthews/13ab2289d7211cac8c4b2057ca56656a be a solution?
