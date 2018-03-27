@@ -112,12 +112,14 @@ CapsLock & y::Send ^+{Left}
 ; command-T/T => time
 CapsLock & T::
 	Input Key, L1
-	If Key=D
-	If GetKeyState("Shift")
-    	FormatTime, TimeString,, yyyyMMddHHmm
-	Else
-    	FormatTime, TimeString,, yyyyMMdd
-	
-	If Key=T
+	If (Key="D"){
+		If (GetKeyState("Shift")){
+			FormatTime, TimeString,, yyyyMMddHHmm
+		}Else{
+			FormatTime, TimeString,, yyyyMMdd
+		}
+	}
+	If (Key="T"){
 		FormatTime, TimeString,, HHmm
+	}
 	Send %TimeString%
