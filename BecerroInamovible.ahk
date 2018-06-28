@@ -81,23 +81,15 @@ CapsLock & ,::
 		SendInput {End}
 	Return
 
-; Shift arrows.
-; Does not work. Would ; https://gist.github.com/DaleMatthews/13ab2289d7211cac8c4b2057ca56656a be a solution?
-; CapsLock & w::
-; 	if GetKeyState("Shift", "p")
-; 		SendInput +{Left}
-; 	else
-; 		SendInput {Left}
-; 	Return
-
-;+CapsLock & k::Send {Right}
-;+CapsLock & SC027::Send +{Down}
-;+CapsLock & l::Send +{Up}
-
 ; Mark word left.
 CapsLock & y::Send ^+{Left}
 
+;
 ; Experimental.
+;
+
+CapsLock & w::Send ^{F4}
+
 ;Space::Send {Space}
 ;Space & j::Send {Left}
 ;Space & k::Send {Right}
@@ -110,6 +102,7 @@ CapsLock & y::Send ^+{Left}
 
 ; command-T/D => date
 ; command-T/T => time
+; Can we make a menu out of this?
 CapsLock & T::
 	Input Key, L1
 	If (Key="D"){
