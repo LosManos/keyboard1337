@@ -11,8 +11,8 @@ SetCapsLockState AlwaysOff
 ; Esc.
 CapsLock::Send {Esc}
 
-; Arrows.
-;CapsLock & j::Send {Left}
+;; Arrows.
+; Left
 CapsLock & j::
 	if GetKeyState("Shift")
 		SendInput +{Left}
@@ -20,7 +20,7 @@ CapsLock & j::
 		SendInput {Left}
 	Return
 
-;CapsLock & k::Send {Right}
+; Right
 CapsLock & k::
 	If GetKeyState("Shift")
 		SendInput +{Right}
@@ -28,7 +28,7 @@ CapsLock & k::
 		SendInput {Right}
 	Return
 
-;CapsLock & SC027::Send {Down} ; or CapsLock & `;::Send {Down}
+; Down (scancode for ;)
 CapsLock & SC027::
 	If GetKeyState("Shift")
 		SendInput +{Down}
@@ -36,7 +36,7 @@ CapsLock & SC027::
 		SendInput {Down}
 	Return
 
-;CapsLock & l::Send {Up}
+; Up
 CapsLock & l::
 	If GetKeyState("Shift")
 		SendInput +{Up}
@@ -44,7 +44,7 @@ CapsLock & l::
 		SendInput {Up}
 	Return
 
-;CapsLock & u::Send ^{Left}
+; Ctrl-(shift)-left ((mark) word left)
 CapsLock & u::
 	If GetKeyState("Shift")
 		SendInput +^{Left}
@@ -53,7 +53,7 @@ CapsLock & u::
 	Return
 
 
-;CapsLock & i::Send ^{Right}
+; Ctrl-(shift)-right ((mark) word right)
 CapsLock & i::
 	If GetKeyState("Shift")
 		SendInput +^{Right}
@@ -65,20 +65,30 @@ CapsLock & i::
 ; Backspace and Del.
 CapsLock & h::Send {Backspace}
 
-; Home and End.
-;CapsLock & m::Send {Home}
+; Home.
 CapsLock & m::
 	If GetKeyState("Shift")
 		SendInput +{Home}
 	Else
 		SendInput {Home}
 	Return
-;CapsLock & ,::Send {End}
+
+; End.
 CapsLock & ,::
 	If GetKeyState("Shift")
 		SendInput +{End}
 	Else
 		SendInput {End}
+	Return
+
+; Page up
+CapsLock & .::
+	SendInput {PgUp}
+	Return
+
+; Page down (scancode for /)
+CapsLock & SC035::
+	SendInput {PgDn}
 	Return
 
 ; Mark word left.
